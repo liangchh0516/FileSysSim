@@ -8,8 +8,8 @@ FileSysSim.pickle       文件系统本地存储
 其中 文件系统本地存储 的文件名在 FileSystem.py 中更改，更改后需要重新存储并打包（没有python环境无法打包）
 
 具体打包方法为：
-安装 pyinstaller 后，在 mian.py 所在路径打开终端
-输入命令 pyinstaller -F -c main.py 即可
+安装 pyinstaller 后，在 FileSystem.py 所在路径打开终端
+输入命令 pyinstaller -F -c FileSystem.py 即可
 
 若没有系统本地存储(FileSysSim.pickle)，将使用初始化后的系统
 
