@@ -1,9 +1,9 @@
-main.exe                启动系统
+FileSystem.exe          启动系统
 
-basic.py                 包括底层数据结构的定义以及底层函数的架构
-core.py                  包括直接调用的用户操作函数
+basic.py                包括底层数据结构的定义以及底层函数的架构
+core.py                 包括直接调用的用户操作函数
 main.py                 启动系统
-FileSysSim.pickle   文件系统本地存储
+FileSysSim.pickle       文件系统本地存储
 
 其中 文件系统本地存储 的文件名在 FileSystem.py 中更改，更改后需要重新存储并打包（没有python环境无法打包）
 
